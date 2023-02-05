@@ -56,3 +56,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
    
+//If the preview canvas isn’t visible, select Editor > Canvas to show it.

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//The @main attribute identifies the app’s entry point
 @main
 struct LandMarkAppApp: App {
     let persistenceController = PersistenceController.shared

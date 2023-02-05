@@ -16,10 +16,12 @@ struct CircleImageView: View {
 //            .shadow(radius: 7)
         
         //using resizable attribute
-        Image("turtlerock")
+        Image("icybay")
             .resizable().aspectRatio(contentMode: .fit)
             .clipShape(Circle())
-            .overlay(Circle().stroke(.white, lineWidth: 4))
+            .overlay{
+                Circle().stroke(.white, lineWidth: 4)
+            }
             .shadow(radius: 7)
             .frame(width: 200.0, height: 200.0, alignment: .center)
     }
